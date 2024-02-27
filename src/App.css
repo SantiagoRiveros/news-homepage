@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+header {margin: 50px 0 50px 0;}
+h1 { font-size: 48px; font-weight: 900; line-height: 1em;}
+.css-mhc70k-MuiGrid-root { margin: 0 -10px 20px -10px !important;}
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-5.css-yw6hac-MuiGrid-root {
+  background-color: #282c34;
+  color: #fff;
+}
+
+section h2 {  color: orange; }

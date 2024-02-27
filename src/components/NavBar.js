@@ -1,13 +1,16 @@
+import { MenuItem, MenuList } from '@mui/material';
+
+const pages = ['Home', 'New', 'Popular', 'Trending', 'Categories'];
+
 export default function NavBar() {
   return (
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>New</li>
-        <li>Popular</li>
-        <li>Trending</li>
-        <li>Categories</li>
-      </ul>
-    </nav>
+   
+    <MenuList>
+      {pages.map((page) => ( 
+        <MenuItem key={page} sx={{ flexGrow: 1, display: { xs: 'inline-flex', md: 'inline-flex' } }}>
+          {page}
+        </MenuItem>
+         ))}
+      </MenuList>
   );
 }

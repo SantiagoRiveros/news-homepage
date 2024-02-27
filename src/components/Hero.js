@@ -1,18 +1,25 @@
 import { HeroBanner } from "../assets";
+import { Button, Grid } from "@mui/material";
 
 export default function Hero() {
   return (
-    <div>
-      <img src={HeroBanner} alt="hero-banner" />
-      <div>
-        <h2>The Bright Future of Web 3.0?</h2>
+    <Grid container spacing={2}>
+      <Grid md={12}>
+        <img src={HeroBanner} alt="hero-banner" />
+      </Grid>
+
+      <Grid md={5}>
+        <h1>The Bright Future of Web 3.0?</h1>
+      </Grid>
+      <Grid md={6}>
         <p>
+          <br />
           We dive into the next evolution of the web that claims to put the
           power of the platforms back into the hands of the people. But is it
           really fullfilling its promise?
         </p>
-        <button>READ MORE</button>
-      </div>
-    </div>
+        <Button variant="contained">READ MORE</Button>
+      </Grid>
+    </Grid>
   );
 }
