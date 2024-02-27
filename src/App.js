@@ -1,7 +1,6 @@
 import "./App.css";
-import { Header } from "./components";
-import MainSection from "./components/MainSection";
-import StarredNews from "./components/StarredNews";
+import { MainSection, StarredNews, Header } from "./components";
+
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 

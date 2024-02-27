@@ -1,5 +1,6 @@
 import { HeroBanner } from "../assets";
 import { Button, Grid } from "@mui/material";
+import "./styles/Hero.css"
 
 export default function Hero() {
   return (
@@ -12,7 +13,7 @@ export default function Hero() {
         <h1>The Bright Future of Web 3.0?</h1>
       </Grid>
       <Grid md={6}>
-        <p>
+        <p className="paragraph">
           <br />
           We dive into the next evolution of the web that claims to put the
           power of the platforms back into the hands of the people. But is it

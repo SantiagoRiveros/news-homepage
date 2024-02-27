@@ -1,5 +1,4 @@
-import { Hero } from ".";
-import NewsList from "./NewsList";
+import { Hero, NewsList } from "./";
 /** como puedo importart componentes de manera mas global? */
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
