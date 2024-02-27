@@ -28,7 +28,7 @@ export default function StarredNews() {
   const listNews = thenews.map((thenew) => (
     <Grid container md={4}>
       <Grid md={4}>
-        <img src="" alt={thenew.id} />
+        <img src="" alt="Pic" />
       </Grid>
       <Grid md={8}>
         <h3>{thenew.id}</h3>
